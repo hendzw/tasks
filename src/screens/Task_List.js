@@ -4,6 +4,7 @@ import moment from "moment"
 import 'moment/locale/pt-br'
 
 import today_Image from '../../assets/imgs/today.jpg'
+import Task from "./components/Task"
 
 export default class Task_List extends Component{
     render(){
@@ -16,8 +17,10 @@ export default class Task_List extends Component{
                         <Text styles={styles.subTitle}>{today}</Text>
                     </View>
                 </ImageBackground>
-                <View>
-                    <Text>Lista de Tarefas</Text>
+                <View styles={styles.taskList}>
+                    <Task/>
+                    <Task/>
+                    <Task/>
                 </View>
             </View>
         )
