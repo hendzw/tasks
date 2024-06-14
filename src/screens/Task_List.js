@@ -4,6 +4,7 @@ import moment from "moment"
 import 'moment/locale/pt-br'
 
 import today_Image from '../../assets/imgs/today.jpg'
+
 import Task from "./components/Task"
 
 export default class Task_List extends Component{
