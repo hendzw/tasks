@@ -21,7 +21,7 @@ export default class Task_List extends Component {
                     <Task 
                         description = "Estudar para prova do Hereman"
                         estimate_at = {new Date()}
-                        done_at = {null}
+                        done_at = {new Date()}
                     />
                     <Task 
                         description = "Fazer a prova do Hereman"
