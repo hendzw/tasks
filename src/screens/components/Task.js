@@ -9,7 +9,7 @@ export default props => {
         <View style={styles.container}>
         <TouchableWithoutFeedback onPress={() => alert("Olá")}>
             <View style = {styles.checkContainer}>
-                
+                {get_check_view(props.done_at)}
             </View>
         </TouchableWithoutFeedback>
         <View>
